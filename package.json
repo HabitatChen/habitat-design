@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/HabitatChen/habitat-design/issues"
   },
-  "homepage": "https://github.com/HabitatChen/habitat-design#readme"
+  "homepage": "https://github.com/HabitatChen/habitat-design#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
 }
