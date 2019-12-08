@@ -7,7 +7,7 @@ module.exports = Object.assign({}, base, {
             commonjs: 'react',
             commonjs2: 'react',
             amd: 'react',
-            root: React
+            root: 'React'
         },
         'react-dom': {
             commonjs: 'react-dom',
