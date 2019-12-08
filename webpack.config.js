@@ -1,4 +1,5 @@
 const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
     mode: 'production',
@@ -9,7 +10,6 @@ module.exports = {
         path: path.resolve(__dirname, 'dist/lib'),
         library: 'ckui',
         libraryTarget: "umd"
-
     },
     module: {
         rules: [
@@ -19,5 +19,11 @@ module.exports = {
             }
         ]
 
-    }
+    },
+    plugins: [
+        new HtmlWebpackPlugin({
+            title: "CKUI",
+            template: "index.html"
+        })
+    ]
 }
