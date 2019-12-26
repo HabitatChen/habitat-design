@@ -1,9 +1,12 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
-import Button from './Button'
+// import Button from './Button'
+// @ts-ignore
+import Icon from './Icon'
 
-console.log(1);
-console.log(React);
-console.log(ReactDOM);
 
-ReactDOM.render(<Button />, document.body)
+ReactDOM.render(
+    <div>
+        <Icon name='wechat' />
+    </div>,
+    document.querySelector('#root'))
