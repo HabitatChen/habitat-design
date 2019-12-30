@@ -4,9 +4,21 @@ import * as ReactDOM from 'react-dom'
 // @ts-ignore
 import Icon from './Icon'
 
+const fn: React.MouseEventHandler = (e) => {
+    console.log(e)
+    console.log(e.target)
+    // 断言
+    console.log((e.target as SVGUseElement).href )
+}
 
 ReactDOM.render(
     <div>
-        <Icon name='wechat' />
+        <Icon
+            name='wechat'
+            onClick={ fn }
+            onMouseEnter={ () => {
+                console.log('enter')
+            }}
+        />
     </div>,
     document.querySelector('#root'))

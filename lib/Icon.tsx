@@ -1,5 +1,7 @@
 import React from 'react'
 import './importAllIcons'
+import './icons/icon.scss'
+import classes from './helppers/classnames'
 
 /**
  * 1. 添加一个loader ==> 转换svg源代码
@@ -7,17 +9,18 @@ import './importAllIcons'
  * 3. 在页面上使用 svg 然后使用 use 标签添加 xlink-href 属性
  */
 
-interface IconProps {
+interface IconProps extends React.SVGAttributes<SVGElement> {
     name: string
 }
 
-const Icon: React.FunctionComponent<IconProps> = (props: any) => {
+const Icon: React.FunctionComponent<IconProps> = ({ className, name, ...restProps }: any) => {
     return (
-        <span>
-            <svg>
-                <use xlinkHref={`#${ props.name }`} />
-            </svg>
-        </span>
+        <svg
+            className={classes('icon', className)}
+            { ...restProps }
+        >
+            <use xlinkHref={`#${ name }`} />
+        </svg>
     )
 }
 
