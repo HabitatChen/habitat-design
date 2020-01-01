@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b67d8b95-7ed6-4c40-8f55-ab0f3bc2aeac" name="Default Changelist" comment="" />
+    <list default="true" id="b67d8b95-7ed6-4c40-8f55-ab0f3bc2aeac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.circleci/comfig.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/comfig.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +91,7 @@
       <workItem from="1577463101940" duration="2010000" />
       <workItem from="1577695287065" duration="16000" />
       <workItem from="1577695303546" duration="3204000" />
-      <workItem from="1577718305124" duration="9661000" />
+      <workItem from="1577718305124" duration="10402000" />
     </task>
     <servers />
   </component>

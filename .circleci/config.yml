@@ -1,3 +1,5 @@
+# circle ci 上面 no configuration
+
 #https://github.com/revolunet/create-react-app-circleci/blob/master/.circleci/config.yml
 defaults: &defaults
   docker:
