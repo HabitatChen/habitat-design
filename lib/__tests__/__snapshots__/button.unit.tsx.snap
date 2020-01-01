@@ -2,6 +2,17 @@
 
 exports[`button 是个div 1`] = `
 <div>
-  按钮
+  <div>
+    hello word 
+    hello
+    1
+    hello
+    <button
+      onClick={[Function]}
+    >
+      click
+    </button>
+  </div>
+  <div />
 </div>
 `;

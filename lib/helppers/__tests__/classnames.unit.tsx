@@ -1,4 +1,5 @@
 // 行为驱动测试 bdd
+// @ts-ignore
 import classes from '../classnames.tsx'
 describe('classes', () => {
     it('接收一个 classname', () => {

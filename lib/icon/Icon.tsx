@@ -1,7 +1,8 @@
 import React from 'react'
-import './importAllIcons'
-import './icons/icon.scss'
-import classes from './helppers/classnames'
+import './importAllIcons.js'
+import './icon.scss'
+// @ts-ignore
+import classes from '../helppers/classnames.tsx'
 
 /**
  * 1. 添加一个loader ==> 转换svg源代码

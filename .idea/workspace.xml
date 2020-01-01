@@ -2,8 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b67d8b95-7ed6-4c40-8f55-ab0f3bc2aeac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/helppers/__tests__/classnames.unit.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/clover.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/coverage-final.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/block-navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/Button.tsx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/helppers/classnames.tsx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/helppers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/icon/Icon.tsx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/icon/importAllIcons.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/icon/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/sort-arrow-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/sorter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/junit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/icon/__tests__/__snapshots__/icon.unit.tsx.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/icon/__tests__/icon.unit.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/__mocks__/file-mock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/__mocks__/object-mock.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/icon/Icon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/__tests__/__snapshots__/button.unit.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/lib/__tests__/__snapshots__/button.unit.tsx.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/helppers/__tests__/classnames.unit.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/helppers/__tests__/classnames.unit.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/icons/icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lib/icon/icon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/importAllIcons.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/icon/importAllIcons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,12 +79,13 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/icon" />
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lib/icons" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -90,7 +123,7 @@
       <workItem from="1577463101940" duration="2010000" />
       <workItem from="1577695287065" duration="16000" />
       <workItem from="1577695303546" duration="3204000" />
-      <workItem from="1577718305124" duration="502000" />
+      <workItem from="1577718305124" duration="6590000" />
     </task>
     <servers />
   </component>
