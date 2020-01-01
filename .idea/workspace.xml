@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b67d8b95-7ed6-4c40-8f55-ab0f3bc2aeac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jest.config.ci.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/icon/icon.example.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/junit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +63,8 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib/icons" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/lib/icons" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -90,7 +102,7 @@
       <workItem from="1577463101940" duration="2010000" />
       <workItem from="1577695287065" duration="16000" />
       <workItem from="1577695303546" duration="3204000" />
-      <workItem from="1577718305124" duration="11101000" />
+      <workItem from="1577718305124" duration="13214000" />
     </task>
     <servers />
   </component>

@@ -48,7 +48,7 @@ module.exports = {
   //  plugins: [
   //      new HtmlWebpackPlugin({
   //          title: "CKUI",
-  //          template: "index.html"
+  //          template: "example.html"
   //      })
   //  ]
 }
