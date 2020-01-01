@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b67d8b95-7ed6-4c40-8f55-ab0f3bc2aeac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.circle/comfig.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circle/comfig.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/lib/Button.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/Button.tsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/lib/helppers/classnames.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/helppers/classnames.tsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/lib/helppers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/helppers/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/lib/icon/Icon.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/icon/Icon.tsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/lib/icon/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/icon/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/lib/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/lib/index.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/index.tsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/lib/types/allTypes.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/types/allTypes.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/lib/types/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/types/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/junit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/junit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="b67d8b95-7ed6-4c40-8f55-ab0f3bc2aeac" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +88,7 @@
       <workItem from="1577463101940" duration="2010000" />
       <workItem from="1577695287065" duration="16000" />
       <workItem from="1577695303546" duration="3204000" />
-      <workItem from="1577718305124" duration="9594000" />
+      <workItem from="1577718305124" duration="9661000" />
     </task>
     <servers />
   </component>
