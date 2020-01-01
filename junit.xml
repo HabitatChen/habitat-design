@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="9" failures="0" time="2.217">
-  <testsuite name="icon" errors="0" failures="0" skipped="0" timestamp="2020-01-01T08:12:13" time="0.719" tests="2">
-    <testcase classname="icon 是个div" name="icon 是个div" time="0.012">
+<testsuites name="jest tests" tests="9" failures="0" time="2.53">
+  <testsuite name="icon" errors="0" failures="0" skipped="0" timestamp="2020-01-01T13:53:38" time="0.86" tests="2">
+    <testcase classname="icon 是个div" name="icon 是个div" time="0.014">
     </testcase>
     <testcase classname="icon 测试点击事件" name="icon 测试点击事件" time="0.03">
     </testcase>
   </testsuite>
-  <testsuite name="classes" errors="0" failures="0" skipped="0" timestamp="2020-01-01T08:12:14" time="0.116" tests="5">
-    <testcase classname="classes 接收一个 classname" name="classes 接收一个 classname" time="0.002">
+  <testsuite name="button" errors="0" failures="0" skipped="0" timestamp="2020-01-01T13:53:39" time="0.119" tests="1">
+    <testcase classname="button 是个div" name="button 是个div" time="0.005">
     </testcase>
-    <testcase classname="classes 接收两个 classNamel" name="classes 接收两个 classNamel" time="0">
+  </testsuite>
+  <testsuite name="classes" errors="0" failures="0" skipped="0" timestamp="2020-01-01T13:53:39" time="0.125" tests="5">
+    <testcase classname="classes 接收一个 classname" name="classes 接收一个 classname" time="0.001">
     </testcase>
-    <testcase classname="classes 接收 undefined" name="classes 接收 undefined" time="0.001">
+    <testcase classname="classes 接收两个 classNamel" name="classes 接收两个 classNamel" time="0.001">
+    </testcase>
+    <testcase classname="classes 接收 undefined" name="classes 接收 undefined" time="0">
     </testcase>
     <testcase classname="classes 接收 多个 falsy值" name="classes 接收 多个 falsy值" time="0">
     </testcase>
     <testcase classname="classes 接收 0 个参数" name="classes 接收 0 个参数" time="0">
     </testcase>
   </testsuite>
-  <testsuite name="button" errors="0" failures="0" skipped="0" timestamp="2020-01-01T08:12:14" time="0.123" tests="1">
-    <testcase classname="button 是个div" name="button 是个div" time="0.004">
-    </testcase>
-  </testsuite>
-  <testsuite name="第一个测试用例" errors="0" failures="0" skipped="0" timestamp="2020-01-01T08:12:14" time="0.096" tests="1">
+  <testsuite name="第一个测试用例" errors="0" failures="0" skipped="0" timestamp="2020-01-01T13:53:39" time="0.093" tests="1">
     <testcase classname="第一个测试用例 add(1, 2) 等于 3" name="第一个测试用例 add(1, 2) 等于 3" time="0.001">
     </testcase>
   </testsuite>
