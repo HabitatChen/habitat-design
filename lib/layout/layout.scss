@@ -1,0 +1,26 @@
+.ckui-layout {
+    display: flex;
+    flex-direction: column;
+    & & {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: row;
+    }
+    &-hasAside {
+        flex-direction: row;
+        .ckui-layout {
+            flex-direction: column;
+        }
+    }
+    &-content {
+        display: flex;
+        flex-grow: 1;
+    }
+    &-aside {
+    }
+    &-footer {
+    }
+    &-header {
+    }
+
+}

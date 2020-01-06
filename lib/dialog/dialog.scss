@@ -1,0 +1,49 @@
+@import "../helper";
+.ckui-dialog {
+    background: white;
+    position: fixed;
+    width: 30em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    &-mask {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: fade_out(black, 0.5);
+        z-index: 1;
+    }
+    &-header {
+        font-size: 22px;
+        padding: 8px 16px;
+    }
+    &-main {
+        min-height: 8em;
+        padding: 0 16px;
+    }
+    &-footer {
+        padding: 8px 10px;
+        display: flex;
+        justify-content: flex-end;
+        button {
+            padding: 5px;
+            margin-left: 10px;
+        }
+    }
+    &-close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 2em;
+        height: 2em;
+        transform: translate(50%, -50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: $main-color;
+        border-radius: 50%;
+        color: white;
+    }
+}

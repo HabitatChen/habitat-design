@@ -2,19 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b67d8b95-7ed6-4c40-8f55-ab0f3bc2aeac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jest.config.ci.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/icon/icon.example.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/_helper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dialog/dialog.example.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dialog/dialog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dialog/dialog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/icons/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/layout/aside.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/layout/content.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/layout/footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/layout/header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/layout/layout.example.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/layout/layout.example.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/layout/layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/layout/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/example.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/junit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/junit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example.html" beforeDir="false" afterPath="$PROJECT_DIR$/example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/example.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/helppers/__tests__/classnames.unit.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/helppers/__tests__/classnames.unit.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/helppers/classnames.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/helppers/classnames.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/icon/icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lib/icon/icon.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,10 +33,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -45,7 +52,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/layout" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -53,8 +60,9 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -63,8 +71,10 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/lib/layout" />
       <recent name="$PROJECT_DIR$/lib/icons" />
+      <recent name="$PROJECT_DIR$/lib/dialog" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -78,6 +88,26 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="scopedClassMaker" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/lib/helppers/__tests__/classnames.unit.tsx" />
+      <test-names>
+        <test-name value="scopedClassMaker" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.scopedClassMaker" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -102,7 +132,7 @@
       <workItem from="1577463101940" duration="2010000" />
       <workItem from="1577695287065" duration="16000" />
       <workItem from="1577695303546" duration="3204000" />
-      <workItem from="1577718305124" duration="13214000" />
+      <workItem from="1577718305124" duration="33177000" />
     </task>
     <servers />
   </component>
