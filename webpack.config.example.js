@@ -1,16 +1,21 @@
 const base = require('./webpack.config')
-const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const path = require('path')
 
-module.exports = Object.assign({} , base, {
-    mode: 'development',
+
+module.exports = Object.assign({}, base, {
+    mode: 'production',
     entry: {
         example: './example.tsx'
+    },
+    output: {
+        path: path.resolve(__dirname, 'doc'),
     },
     plugins: [
         new HtmlWebpackPlugin({
             title: "CKUI",
-            template: "example.html"
+            template: "example.html",
+            filename: 'example.html'
         })
     ]
 })

@@ -2,26 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b67d8b95-7ed6-4c40-8f55-ab0f3bc2aeac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/_helper.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/dialog/dialog.example.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/dialog/dialog.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/dialog/dialog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/icons/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/layout/aside.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/layout/content.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/layout/footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/layout/header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/layout/layout.example.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/layout/layout.example.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/layout/layout.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/layout/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/icon/icon.demo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.example.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example.html" beforeDir="false" afterPath="$PROJECT_DIR$/example.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/example.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/helppers/__tests__/classnames.unit.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/helppers/__tests__/classnames.unit.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/helppers/classnames.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/helppers/classnames.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/icon/icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lib/icon/icon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/icon/icon.example.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/icon/icon.example.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/layout/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/layout/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/schema-utils/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/schema-utils/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/schema-utils/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/schema-utils/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/schema-utils/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/schema-utils/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/schema-utils/src/ValidationError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/schema-utils/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/schema-utils/src/validateOptions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +53,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -66,15 +67,15 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib/icon" />
-      <recent name="$PROJECT_DIR$/lib" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lib/layout" />
       <recent name="$PROJECT_DIR$/lib/icons" />
       <recent name="$PROJECT_DIR$/lib/dialog" />
-      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/icon" />
+      <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -132,7 +133,8 @@
       <workItem from="1577463101940" duration="2010000" />
       <workItem from="1577695287065" duration="16000" />
       <workItem from="1577695303546" duration="3204000" />
-      <workItem from="1577718305124" duration="33177000" />
+      <workItem from="1577718305124" duration="33977000" />
+      <workItem from="1578409658249" duration="5613000" />
     </task>
     <servers />
   </component>

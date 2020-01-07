@@ -1,0 +1,67 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+*::after { box-sizing: border-box }
+*::before { box-sizing: border-box }
+ul, ol { list-style: none }
+h1, h2, h3, h4, h5, h6 { font-weight: normal }
+a { text-decoration: none; color: inherit }
+pre {
+    font-family: "Fira Code Medium ", Consolas monospace ;
+}
+
+$padding: 16px;
+$mainColor: #223c92;
+$borderColor: #eee;
+
+.site-page {
+    min-height: 100vh;
+    .site-header {
+        background: $borderColor;
+        height: 50px;
+        .logo {
+            padding: 0 $padding;
+            display: flex;
+            align-items: center;
+            img {
+                margin-top: 5px;
+                height: 40px;
+            }
+        }
+    }
+}
+.site-content {
+    padding-top: 16px;
+}
+.site-aside {
+    border-right: 1px solid $borderColor;
+    margin-right: 20px;
+    h2 {
+        padding: 8px $padding;
+    }
+    ol {
+        min-width: 12em;
+        li {
+            a {
+                padding: 8px $padding;
+                display: block;
+                color: #333;
+                &:hover {
+                    color: $mainColor;
+                }
+                &.active {
+                    background: $mainColor;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+.site-footer {
+    font-size: 12px;
+    text-align: center;
+    color: #666;
+    padding: 16px 0;
+    border-top: 1px solid $borderColor;
+}
+.example {
+    padding: 16px 0;
+}
